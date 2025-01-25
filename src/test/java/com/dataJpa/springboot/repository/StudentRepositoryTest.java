@@ -37,7 +37,7 @@ public class StudentRepositoryTest {
         Student student = Student.builder()
                 .firstName("Shiva")
                 .emialId("shiva@shiv.com")
-                .lastName("saiva")
+                .lastName("shiva")
                 .guardian(guardian)
                 .build();
         studentRepository.save(student);
